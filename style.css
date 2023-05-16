@@ -1,0 +1,159 @@
+/* universal selactor */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+/* id selector */
+ h1 {
+	text-align: center;
+    color:white;
+	background-color: black;
+	margin: 0px 0px 0px 0px;
+	
+ }
+
+body{
+	 font-family: 'Libre Baskerville', serif;
+}
+
+
+
+body {
+	background-image:url("images (5).jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+}
+
+#b{
+	border:3px dotted black;
+	border-style: groove;
+	width:300px;
+	font-weight:100px;
+	border-radius: 10px 10px 10px 10px;
+}
+#fonts{
+	font-family: "Lucida Console", "Courier New", monospace;
+
+	
+}
+.sathi{
+	border:3px solid red;
+	border-style: inset;
+	width:200px;
+	background-color: white;
+}
+div> p{
+	
+	color:blue;
+}
+
+
+div b{
+	
+	color:red;
+	
+}
+
+div +i{
+	color:red
+	
+	
+}
+
+div ~h2{
+	border:4px solid green;
+	border-style: ridge;
+	width:300px;
+	;
+	
+	
+	
+	
+}
+
+
+a:link{
+	font-size:big;
+	color:black;
+}
+
+
+a:visited{
+	
+	color:red;
+	
+}
+
+
+a:hover{
+	   
+	   background-color:green;
+	
+	
+}
+
+h2.abcd::before{
+	
+	content: "this  ";
+}
+
+h2.abcd::after{
+	
+	content:" pen";
+}
+
+
+h2#abcd::first-line {
+	
+	background-color: violet;
+}
+	
+	
+	h1::first-letter{
+		
+	color:white;
+	font-size:100px;
+	
+	}
+	
+::selection{
+	
+	color:black;
+}
+	
+::marker{
+		color:red;
+		font-size:30px;
+	}
+	
+	#two{
+		
+		text-align:justify;
+	}
+	
+	#three{
+		
+		text-transform:uppercase;
+	}
+	
+	
+	#four{
+		
+		text-decoration-line:underline;
+	}
+	#five{
+		
+		text-shadow: 5px 5px red;
+	}
+	
+	#six{
+		
+		letter-spacing: 3px;
+		word-spacing: 5px;
+	}
